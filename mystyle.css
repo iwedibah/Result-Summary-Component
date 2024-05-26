@@ -293,6 +293,7 @@ span{
     }
     .reaction{
         width: auto;
+        padding: 20px 10px;
     }
     .reaction img{
         margin-right: 20px;
@@ -302,6 +303,7 @@ span{
     }
     .memory{
         width: auto;
+        padding: 20px 10px;
     }
     .memory img{
         margin-right: 20px;
@@ -311,6 +313,7 @@ span{
     }
     .verbal{
         width: auto;
+        padding: 20px 10px;
     }
     .verbal img{
         margin-right: 20px;
@@ -320,6 +323,7 @@ span{
     }
     .visual{
         width: auto;
+        padding: 20px 10px;
     }
     .visual img{
         margin-right: 20px;
@@ -329,6 +333,8 @@ span{
     }
     .button{
         width: auto;
+        padding: 20px 10px;
+        margin-top: 15px;
     }
 }
 /* // <uniquifier>: Use a unique and descriptive class name
