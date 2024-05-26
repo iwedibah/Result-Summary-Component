@@ -1,7 +1,6 @@
 .attribution {
     font-size: 11px; text-align: center;
     margin-top: 40px;
-    margin-bottom: 20px;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
@@ -108,13 +107,22 @@ h2{
     font-weight: 800;
     color: hsl(224, 30%, 27%);
 }
-.reaction, .memory, .verbal, .visual{
+span{
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+    
+}
+.reaction{
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #FFF6F5;
     width: 100%;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -132,6 +140,22 @@ h2{
 }
 .reaction p:last-of-type{
     margin: 0 0 0 10px;
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(224, 30%, 27%);
+    font-weight: 400;
+}
+.memory{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFBF2;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .memory img{
     margin: 0 10px 0 0;
@@ -147,6 +171,22 @@ h2{
 }
 .memory p:last-of-type{
     margin: 0 0 0 10px;
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(224, 30%, 27%);
+    font-weight: 400;
+}
+.verbal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F3F3FD;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .verbal img{
     margin: 0 10px 0 0;
@@ -162,6 +202,12 @@ h2{
 }
 .verbal p:last-of-type{
     margin: 0 0 0 20px;
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(224, 30%, 27%);
+    font-weight: 400;
 }
 .visual{
     display: flex;
@@ -169,7 +215,7 @@ h2{
     align-items: center;
     background-color: #F3F3FD;
     width: 100%;
-    padding: 05px 10px;
+    padding: 10px 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -187,6 +233,12 @@ h2{
 }
 .visual p:last-of-type{
     margin: 0 0 0 20px;
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(224, 30%, 27%);
+    font-weight: 400;
 }
 .button{
     width: 110%;
@@ -194,6 +246,7 @@ h2{
     border-radius: 20px;
     text-align: center;
     margin: 10px 0;
+    padding: 10px 0;
     transition: all 220ms ease-in-out;
     cursor: pointer;
 }
@@ -238,28 +291,44 @@ h2{
     h2{
         padding: 10px 0;
     }
+    .reaction{
+        width: auto;
+    }
+    .reaction img{
+        margin-right: 20px;
+    }
     .reaction p:last-of-type{
         margin-left: 80px;
+    }
+    .memory{
+        width: auto;
+    }
+    .memory img{
+        margin-right: 20px;
     }
     .memory p:last-of-type{
         margin-left: 80px;
     }
+    .verbal{
+        width: auto;
+    }
+    .verbal img{
+        margin-right: 20px;
+    }
     .verbal p:last-of-type{
         margin-left: 90px;
     }
-    .visual, .memory, .reaction, .verbal, img{
+    .visual{
+        width: auto;
+    }
+    .visual img{
         margin-right: 20px;
     }
     .visual p:last-of-type{
         margin-left: 90px;
     }
-    .visual, .memory, .reaction, .verbal{
-        margin-bottom: 20px;
-        width: auto;
-    }
     .button{
         width: auto;
-        padding: 10px 0;
     }
 }
 /* // <uniquifier>: Use a unique and descriptive class name
