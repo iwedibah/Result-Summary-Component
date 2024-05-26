@@ -263,7 +263,18 @@ span{
     font-weight: 800;
 }
 
-@media screen and (max-width: 568px){
+@media screen and (min-width: 568px){
+    body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 568px){    
     main{
         display: flex;
         flex-direction: column;
